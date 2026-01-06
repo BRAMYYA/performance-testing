@@ -16,16 +16,20 @@ jobs:
     - name: Setup Java
       uses: actions/setup-java@v4
       with:
-        distribution: 'temurin'
+        distribution: temurin
         java-version: '11'
 
-    - name: Download Apache JMeter
+    - name: Download JMeter
       run: |
         wget https://downloads.apache.org/jmeter/binaries/apache-jmeter-5.6.3.tgz
         tar -xzf apache-jmeter-5.6.3.tgz
 
+    - name: Create Results Directory
+      run: mkdir -p results
+
     - name: Run JMeter Test
       run: |
+        rm -rf results/report
         apache-jmeter-5.6.3/bin/jmeter \
         -n \
         -t test-plans/login_test.jmx \
