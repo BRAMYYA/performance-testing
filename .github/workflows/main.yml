@@ -1,0 +1,40 @@
+name: JMeter Performance Test
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  jmeter-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Setup Java
+      uses: actions/setup-java@v4
+      with:
+        distribution: 'temurin'
+        java-version: '11'
+
+    - name: Download Apache JMeter
+      run: |
+        wget https://downloads.apache.org/jmeter/binaries/apache-jmeter-5.6.3.tgz
+        tar -xzf apache-jmeter-5.6.3.tgz
+
+    - name: Run JMeter Test
+      run: |
+        apache-jmeter-5.6.3/bin/jmeter \
+        -n \
+        -t test-plans/login_test.jmx \
+        -l results/results.jtl \
+        -e \
+        -o results/report
+
+    - name: Upload HTML Report
+      uses: actions/upload-artifact@v4
+      with:
+        name: JMeter-HTML-Report
+        path: results/report
