@@ -1,0 +1,408 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1768194326220,89,/canonical.html-1,200,OK,,text,true,,317,298,0,0,http://detectportal.firefox.com/canonical.html,88,0,64
+1768194327118,39,/success.txt-2,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,39,0,19
+1768194327117,40,/success.txt-3,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,40,0,20
+0,0,content-signature-2.cdn.mozilla.net:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2090,0,0,0,null,0,0,0
+1768194329644,45,/canonical.html-4,200,OK,,text,true,,317,298,0,0,http://detectportal.firefox.com/canonical.html,45,0,20
+1768194329693,56,/success.txt-5,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,56,0,35
+1768194329693,60,/success.txt-6,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,60,0,35
+0,0,incoming.telemetry.mozilla.org:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2300,0,0,0,null,0,0,0
+0,0,incoming.telemetry.mozilla.org:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2300,0,0,0,null,0,0,0
+1768194332577,45,/canonical.html-7,200,OK,,text,true,,317,298,0,0,http://detectportal.firefox.com/canonical.html,45,0,23
+1768194332627,48,/success.txt-8,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,48,0,21
+1768194332627,48,/success.txt-9,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,48,0,24
+0,0,firefox.settings.services.mozilla.com:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2300,0,0,0,null,0,0,0
+1768194335601,45,/canonical.html-10,200,OK,,text,true,,317,298,0,0,http://detectportal.firefox.com/canonical.html,45,0,21
+1768194335650,46,/success.txt-11,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,45,0,22
+1768194335650,49,/success.txt-12,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,49,0,21
+0,0,aus5.mozilla.org:443,,"Received fatal alert: unknown_ca
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1111,0,0,0,null,0,0,0
+1768194338410,44,/canonical.html-13,200,OK,,text,true,,317,298,0,0,http://detectportal.firefox.com/canonical.html,44,0,22
+1768194338459,39,/success.txt-14,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,39,0,18
+1768194338459,51,/success.txt-15,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,51,0,22
+0,0,push.services.mozilla.com:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+1768194342112,49,/canonical.html-16,200,OK,,text,true,,317,298,0,0,http://detectportal.firefox.com/canonical.html,48,0,24
+1768194342166,43,/success.txt-17,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,42,0,18
+1768194342168,41,/success.txt-18,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,41,0,17
+0,0,img-getpocket.cdn.mozilla.net:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2230,0,0,0,null,0,0,0
+0,0,prod-images.merino.prod.webservices.mozgcp.net:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2230,0,0,0,null,0,0,0
+0,0,img-getpocket.cdn.mozilla.net:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2230,0,0,0,null,0,0,0
+0,0,img-getpocket.cdn.mozilla.net:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2230,0,0,0,null,0,0,0
+0,0,prod-images.merino.prod.webservices.mozgcp.net:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2230,0,0,0,null,0,0,0
+0,0,prod-images.merino.prod.webservices.mozgcp.net:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2230,0,0,0,null,0,0,0
+0,0,push.services.mozilla.com:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+1768194347749,50,/canonical.html-19,200,OK,,text,true,,317,298,0,0,http://detectportal.firefox.com/canonical.html,49,0,26
+1768194347803,42,/success.txt-21,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,41,0,19
+1768194347802,43,/success.txt-20,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,42,0,20
+0,0,prod-images.merino.prod.webservices.mozgcp.net:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2230,0,0,0,null,0,0,0
+0,0,img-getpocket.cdn.mozilla.net:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2230,0,0,0,null,0,0,0
+0,0,img-getpocket.cdn.mozilla.net:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2230,0,0,0,null,0,0,0
+0,0,prod-images.merino.prod.webservices.mozgcp.net:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2230,0,0,0,null,0,0,0
+0,0,img-getpocket.cdn.mozilla.net:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2230,0,0,0,null,0,0,0
+0,0,prod-images.merino.prod.webservices.mozgcp.net:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2230,0,0,0,null,0,0,0
+0,0,safebrowsing.googleapis.com:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+0,0,content-signature-2.cdn.mozilla.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1116,0,0,0,null,0,0,0
+0,0,firefox.settings.services.mozilla.com:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1116,0,0,0,null,0,0,0
+1768194349685,41,/canonical.html-22,200,OK,,text,true,,317,298,0,0,http://detectportal.firefox.com/canonical.html,41,0,20
+1768194349731,36,/success.txt-23,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,36,0,17
+1768194349737,46,/success.txt-24,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,46,0,24
+0,0,merino.services.mozilla.com:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+1768194352168,37,/canonical.html-25,200,OK,,text,true,,317,298,0,0,http://detectportal.firefox.com/canonical.html,37,0,17
+1768194352208,45,/success.txt-27,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,45,0,23
+1768194352209,44,/success.txt-26,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,44,0,22
+0,0,firefox.settings.services.mozilla.com:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1116,0,0,0,null,0,0,0
+0,0,prod.ohttp-gateway.prod.webservices.mozgcp.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+1768194355044,49,/canonical.html-28,200,OK,,text,true,,317,298,0,0,http://detectportal.firefox.com/canonical.html,49,0,24
+1768194355096,39,/success.txt-29,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,39,0,17
+1768194355096,47,/success.txt-30,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,47,0,25
+0,0,aus5.mozilla.org:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1116,0,0,0,null,0,0,0
+0,0,firefox.settings.services.mozilla.com:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1116,0,0,0,null,0,0,0
+1768194355879,48,/canonical.html-31,200,OK,,text,true,,317,298,0,0,http://detectportal.firefox.com/canonical.html,48,0,22
+0,0,firefox.settings.services.mozilla.com:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1116,0,0,0,null,0,0,0
+1768194355930,44,/success.txt-32,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,44,0,24
+1768194355930,51,/success.txt-33,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,51,0,29
+0,0,content-signature-2.cdn.mozilla.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1116,0,0,0,null,0,0,0
+1768194355947,68,/canonical.html-34,200,OK,,text,true,,317,298,0,0,http://detectportal.firefox.com/canonical.html,68,0,30
+0,0,firefox.settings.services.mozilla.com:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1116,0,0,0,null,0,0,0
+1768194356019,48,/success.txt-36,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,48,0,23
+1768194356019,52,/success.txt-35,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,52,0,29
+0,0,content-signature-2.cdn.mozilla.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1116,0,0,0,null,0,0,0
+1768194356054,45,/canonical.html-37,200,OK,,text,true,,317,298,0,0,http://detectportal.firefox.com/canonical.html,45,0,21
+1768194356102,40,/success.txt-38,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,40,0,18
+1768194356102,50,/success.txt-39,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,50,0,26
+0,0,firefox.settings.services.mozilla.com:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1116,0,0,0,null,0,0,0
+1768194356171,48,/canonical.html-40,200,OK,,text,true,,317,298,0,0,http://detectportal.firefox.com/canonical.html,48,0,20
+0,0,content-signature-2.cdn.mozilla.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1116,0,0,0,null,0,0,0
+1768194356223,38,/success.txt-41,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,38,0,15
+1768194356223,42,/success.txt-42,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,42,0,23
+1768194356239,42,/canonical.html-43,200,OK,,text,true,,317,298,0,0,http://detectportal.firefox.com/canonical.html,42,0,21
+1768194356285,46,/success.txt-45,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,46,0,22
+1768194356285,54,/success.txt-44,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,54,0,28
+0,0,push.services.mozilla.com:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+1768194357838,49,/canonical.html-46,200,OK,,text,true,,317,298,0,0,http://detectportal.firefox.com/canonical.html,49,0,22
+1768194357891,46,/success.txt-48,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,45,0,21
+1768194357891,49,/success.txt-47,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,49,0,19
+0,0,content-signature-2.cdn.mozilla.net:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2245,0,0,0,null,0,0,0
+0,0,ads.mozilla.org:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2230,0,0,0,null,0,0,0
+0,0,firefox-settings-attachments.cdn.mozilla.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1116,0,0,0,null,0,0,0
+1768194361287,43,/canonical.html-49,200,OK,,text,true,,317,298,0,0,http://detectportal.firefox.com/canonical.html,43,0,18
+1768194361334,39,/success.txt-50,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,39,0,16
+1768194361333,44,/success.txt-51,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,44,0,21
+0,0,firefox-settings-attachments.cdn.mozilla.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1116,0,0,0,null,0,0,0
+1768194361397,49,/canonical.html-52,200,OK,,text,true,,317,298,0,0,http://detectportal.firefox.com/canonical.html,49,0,18
+0,0,firefox-settings-attachments.cdn.mozilla.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1116,0,0,0,null,0,0,0
+1768194361452,40,/success.txt-53,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,39,0,22
+1768194361453,43,/success.txt-54,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,43,0,21
+1768194361455,45,/canonical.html-55,200,OK,,text,true,,317,298,0,0,http://detectportal.firefox.com/canonical.html,45,0,25
+0,0,firefox-settings-attachments.cdn.mozilla.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1116,0,0,0,null,0,0,0
+1768194361510,50,/success.txt-57,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,50,0,25
+1768194361510,50,/success.txt-56,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,49,0,18
+1768194361513,47,/canonical.html-58,200,OK,,text,true,,317,298,0,0,http://detectportal.firefox.com/canonical.html,46,0,22
+0,0,firefox-settings-attachments.cdn.mozilla.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1116,0,0,0,null,0,0,0
+1768194361567,39,/success.txt-59,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,39,0,17
+1768194361567,41,/success.txt-60,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,41,0,21
+0,0,firefox-settings-attachments.cdn.mozilla.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1116,0,0,0,null,0,0,0
+1768194361569,68,/canonical.html-61,200,OK,,text,true,,317,298,0,0,http://detectportal.firefox.com/canonical.html,68,0,20
+1768194361642,39,/success.txt-63,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,39,0,20
+1768194361642,42,/success.txt-62,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,41,0,20
+0,0,img-getpocket.cdn.mozilla.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+0,0,img-getpocket.cdn.mozilla.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+0,0,img-getpocket.cdn.mozilla.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+0,0,prod-images.merino.prod.webservices.mozgcp.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+0,0,prod-images.merino.prod.webservices.mozgcp.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+0,0,prod-images.merino.prod.webservices.mozgcp.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+1768194362442,49,/canonical.html-64,200,OK,,text,true,,317,298,0,0,http://detectportal.firefox.com/canonical.html,49,0,23
+0,0,img-getpocket.cdn.mozilla.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+0,0,img-getpocket.cdn.mozilla.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+0,0,img-getpocket.cdn.mozilla.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+0,0,prod-images.merino.prod.webservices.mozgcp.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+0,0,prod-images.merino.prod.webservices.mozgcp.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+0,0,prod-images.merino.prod.webservices.mozgcp.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+1768194362604,40,/success.txt-65,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,40,0,18
+1768194362604,40,/success.txt-66,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,40,0,18
+1768194362607,45,/canonical.html-67,200,OK,,text,true,,317,298,0,0,http://detectportal.firefox.com/canonical.html,45,0,20
+0,0,img-getpocket.cdn.mozilla.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+0,0,img-getpocket.cdn.mozilla.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+0,0,img-getpocket.cdn.mozilla.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+0,0,prod-images.merino.prod.webservices.mozgcp.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+0,0,prod-images.merino.prod.webservices.mozgcp.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+0,0,prod-images.merino.prod.webservices.mozgcp.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+1768194362765,36,/success.txt-69,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,35,0,17
+1768194362765,45,/success.txt-68,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,45,0,21
+1768194362767,43,/canonical.html-70,200,OK,,text,true,,317,298,0,0,http://detectportal.firefox.com/canonical.html,43,0,20
+0,0,prod-images.merino.prod.webservices.mozgcp.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+0,0,prod-images.merino.prod.webservices.mozgcp.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+1768194362822,42,/success.txt-71,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,42,0,22
+1768194362824,47,/canonical.html-73,200,OK,,text,true,,317,298,0,0,http://detectportal.firefox.com/canonical.html,47,0,22
+1768194362823,62,/success.txt-72,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,62,0,38
+1768194362875,44,/success.txt-74,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,43,0,26
+1768194362875,63,/success.txt-75,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,63,0,26
+0,0,img-getpocket.cdn.mozilla.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+1768194363338,91,/canonical.html-76,200,OK,,text,true,,317,298,0,0,http://detectportal.firefox.com/canonical.html,90,0,66
+1768194363432,163,/success.txt-77,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,163,0,26
+1768194363434,163,/success.txt-78,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,163,0,23
+0,0,img-getpocket.cdn.mozilla.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+1768194364345,113,/canonical.html-79,200,OK,,text,true,,317,298,0,0,http://detectportal.firefox.com/canonical.html,113,0,77
+0,0,petstore.octoperf.com:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2230,0,0,0,null,0,0,0
+0,0,petstore.octoperf.com:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+1768194364467,155,/success.txt-80,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,154,0,20
+1768194364465,157,/success.txt-81,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,157,0,22
+1768194364617,46,/canonical.html-82,200,OK,,text,true,,317,298,0,0,http://detectportal.firefox.com/canonical.html,46,0,20
+0,0,incoming.telemetry.mozilla.org:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+0,0,incoming.telemetry.mozilla.org:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+0,0,incoming.telemetry.mozilla.org:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+1768194364680,96,/canonical.html-85,200,OK,,text,true,,317,298,0,0,http://detectportal.firefox.com/canonical.html,96,0,21
+1768194364678,98,/success.txt-83,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,98,0,23
+1768194364678,108,/success.txt-84,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,108,0,21
+1768194364779,103,/success.txt-87,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,103,0,20
+1768194364780,105,/success.txt-86,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,105,0,26
+0,0,img-getpocket.cdn.mozilla.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+1768194365364,121,/canonical.html-88,200,OK,,text,true,,317,298,0,0,http://detectportal.firefox.com/canonical.html,121,0,97
+1768194365489,159,/success.txt-89,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,158,0,23
+1768194365489,163,/success.txt-90,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,163,0,21
+1768194366626,8,/success.txt-91,Non HTTP response code: java.net.NoRouteToHostException,Non HTTP response message: No route to host: connect,,text,false,,2126,0,0,0,http://detectportal.firefox.com/success.txt?ipv4,0,0,8
+1768194366627,12,/success.txt-92,Non HTTP response code: java.net.NoRouteToHostException,Non HTTP response message: No route to host: connect,,text,false,,2126,0,0,0,http://detectportal.firefox.com/success.txt?ipv6,0,0,12
+0,0,incoming.telemetry.mozilla.org:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+0,0,incoming.telemetry.mozilla.org:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+0,0,incoming.telemetry.mozilla.org:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+1768194367400,7,/canonical.html-93,Non HTTP response code: java.net.SocketException,Non HTTP response message: Network is unreachable: connect,,text,false,,2125,0,0,0,http://detectportal.firefox.com/canonical.html,0,0,7
+1768194367401,1,/success.txt-95,Non HTTP response code: java.net.SocketException,Non HTTP response message: Network is unreachable: connect,,text,false,,2125,0,0,0,http://detectportal.firefox.com/success.txt?ipv4,0,0,1
+1768194367401,3,/success.txt-94,Non HTTP response code: java.net.SocketException,Non HTTP response message: Network is unreachable: connect,,text,false,,2125,0,0,0,http://detectportal.firefox.com/success.txt?ipv6,0,0,3
+1768194367416,0,/success.txt-96,Non HTTP response code: java.net.SocketException,Non HTTP response message: Network is unreachable: connect,,text,false,,2125,0,0,0,http://detectportal.firefox.com/success.txt?ipv4,0,0,0
+1768194367421,0,/success.txt-97,Non HTTP response code: java.net.SocketException,Non HTTP response message: Network is unreachable: connect,,text,false,,2125,0,0,0,http://detectportal.firefox.com/success.txt?ipv6,0,0,0
+0,0,push.services.mozilla.com:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+0,0,services.addons.mozilla.org:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1116,0,0,0,null,0,0,0
+0,0,aus5.mozilla.org:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1116,0,0,0,null,0,0,0
+0,0,aus5.mozilla.org:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1116,0,0,0,null,0,0,0
+1768194368441,0,/success.txt-99,Non HTTP response code: java.net.SocketException,Non HTTP response message: Network is unreachable: connect,,text,false,,2125,0,0,0,http://detectportal.firefox.com/success.txt?ipv4,0,0,0
+1768194368441,0,/success.txt-100,Non HTTP response code: java.net.SocketException,Non HTTP response message: Network is unreachable: connect,,text,false,,2125,0,0,0,http://detectportal.firefox.com/success.txt?ipv6,0,0,0
+1768194367485,3113,/canonical.html-98,Non HTTP response code: java.net.SocketException,Non HTTP response message: Software caused connection abort: connect,,text,false,,2135,0,0,0,http://detectportal.firefox.com/canonical.html,0,0,3113
+1768194370605,0,/success.txt-101,Non HTTP response code: java.net.SocketException,Non HTTP response message: Network is unreachable: connect,,text,false,,2125,0,0,0,http://detectportal.firefox.com/success.txt?ipv6,0,0,0
+1768194370615,113,/success.txt-102,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,113,0,58
+1768194371640,100,/success.txt-104,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,100,0,25
+1768194371640,113,/success.txt-103,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,112,0,30
+1768194371642,129,/canonical.html-105,200,OK,,text,true,,317,298,0,0,http://detectportal.firefox.com/canonical.html,128,0,52
+1768194371774,60,/success.txt-107,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,60,0,27
+1768194371774,80,/success.txt-106,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,80,0,47
+0,0,prod-images.merino.prod.webservices.mozgcp.net:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2230,0,0,0,null,0,0,0
+0,0,prod.ohttp-gateway.prod.webservices.mozgcp.net:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2230,0,0,0,null,0,0,0
+0,0,petstore.octoperf.com:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2230,0,0,0,null,0,0,0
+0,0,img-getpocket.cdn.mozilla.net:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2230,0,0,0,null,0,0,0
+0,0,prod-images.merino.prod.webservices.mozgcp.net:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2230,0,0,0,null,0,0,0
+0,0,img-getpocket.cdn.mozilla.net:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2230,0,0,0,null,0,0,0
+0,0,petstore.octoperf.com:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2230,0,0,0,null,0,0,0
+0,0,img-getpocket.cdn.mozilla.net:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2230,0,0,0,null,0,0,0
+0,0,petstore.octoperf.com:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2230,0,0,0,null,0,0,0
+0,0,prod-images.merino.prod.webservices.mozgcp.net:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2230,0,0,0,null,0,0,0
+0,0,normandy.cdn.mozilla.net:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1286,0,0,0,null,0,0,0
+0,0,prod-images.merino.prod.webservices.mozgcp.net:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2230,0,0,0,null,0,0,0
+0,0,prod-images.merino.prod.webservices.mozgcp.net:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2230,0,0,0,null,0,0,0
+0,0,img-getpocket.cdn.mozilla.net:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2230,0,0,0,null,0,0,0
+0,0,img-getpocket.cdn.mozilla.net:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2230,0,0,0,null,0,0,0
+0,0,prod-images.merino.prod.webservices.mozgcp.net:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2230,0,0,0,null,0,0,0
+0,0,img-getpocket.cdn.mozilla.net:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2230,0,0,0,null,0,0,0
+0,0,img-getpocket.cdn.mozilla.net:443,,"Software caused connection abort: recv failed
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1469,0,0,0,null,0,0,0
+0,0,img-getpocket.cdn.mozilla.net:443,,"Software caused connection abort: recv failed
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1469,0,0,0,null,0,0,0
+0,0,petstore.octoperf.com:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2230,0,0,0,null,0,0,0
+1768194372170,85,/canonical.html-108,200,OK,,text,true,,317,298,0,0,http://detectportal.firefox.com/canonical.html,84,0,48
+1768194372259,51,/success.txt-109,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,51,0,25
+1768194372259,59,/success.txt-110,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,59,0,35
+0,0,aus5.mozilla.org:443,,"Received fatal alert: bad_certificate
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1116,0,0,0,null,0,0,0
+1768194373398,68,/canonical.html-111,200,OK,,text,true,,317,298,0,0,http://detectportal.firefox.com/canonical.html,68,0,39
+1768194373486,48,/success.txt-113,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,48,0,22
+1768194373486,48,/success.txt-112,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,47,0,21
+1768194521031,122,/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-01-27-09-17-39.chain-115,200,OK,,text,true,,5843,349,0,0,https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-01-27-09-17-39.chain,122,0,95
+1768194521031,136,/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-01-27-09-17-39.chain-114,200,OK,,text,true,,5864,349,0,0,https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2026-01-27-09-17-39.chain,136,0,114
+1768194521070,121,/canonical.html-116,200,OK,,text,true,,317,298,0,0,http://detectportal.firefox.com/canonical.html,121,0,63
+1768194521120,148,/v1/-117,200,OK,,text,true,,1315,267,0,0,https://firefox.settings.services.mozilla.com/v1/,148,0,110
+1768194521179,90,/v1/-120,200,OK,,text,true,,1315,267,0,0,https://firefox.settings.services.mozilla.com/v1/,90,0,48
+1768194521324,128,/favicons/8ca59983bd90b386dcb3cfeec7a800851297279b217c5a753d5ec63cb5809d89_10526.oct-121,200,OK,,bin,true,,11246,516,0,0,https://prod-images.merino.prod.webservices.mozgcp.net/favicons/8ca59983bd90b386dcb3cfeec7a800851297279b217c5a753d5ec63cb5809d89_10526.oct,127,0,99
+1768194521326,142,/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F942e1eef-8f1c-4146-a343-1eba232fe3c8.jpeg-125,200,OK,,bin,true,,41411,622,0,0,https://img-getpocket.cdn.mozilla.net/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F942e1eef-8f1c-4146-a343-1eba232fe3c8.jpeg,110,0,89
+1768194521352,186,/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F3d111973-b3fd-41af-b174-1d070d9a1212.jpeg-128,200,OK,,bin,true,,34925,622,0,0,https://img-getpocket.cdn.mozilla.net/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F3d111973-b3fd-41af-b174-1d070d9a1212.jpeg,99,0,78
+1768194521334,212,/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2Fda41c4e2-809c-4c91-9739-8dc58f4fc445.jpeg-126,200,OK,,bin,true,,23336,622,0,0,https://img-getpocket.cdn.mozilla.net/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2Fda41c4e2-809c-4c91-9739-8dc58f4fc445.jpeg,158,0,135
+1768194521326,235,/favicons/f7e61d313a7ce7debf61bbe6a1c9680dd3e8b7c1ccd1b2f0c9fddab7cb516852_93062.ico-123,200,OK,,bin,true,,93770,516,0,0,https://prod-images.merino.prod.webservices.mozgcp.net/favicons/f7e61d313a7ce7debf61bbe6a1c9680dd3e8b7c1ccd1b2f0c9fddab7cb516852_93062.ico,158,0,137
+1768194521536,107,/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F6b2c32ac-5db8-49bf-9550-dbb7eb7c2d5d.jpeg-133,200,OK,,bin,true,,19367,622,0,0,https://img-getpocket.cdn.mozilla.net/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F6b2c32ac-5db8-49bf-9550-dbb7eb7c2d5d.jpeg,83,0,60
+1768194521326,424,/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F69172d1b-8979-4bf1-87a1-21c056debf5d.jpeg-124,200,OK,,bin,true,,28758,622,0,0,https://img-getpocket.cdn.mozilla.net/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F69172d1b-8979-4bf1-87a1-21c056debf5d.jpeg,129,0,107
+1768194521656,96,/favicons/eb82daaeb0b85a423e75fcf2141845dbca847d5bbe75ba1cd41d17846d7b1cd3_25074.ico-135,200,OK,,bin,true,,25782,516,0,0,https://prod-images.merino.prod.webservices.mozgcp.net/favicons/eb82daaeb0b85a423e75fcf2141845dbca847d5bbe75ba1cd41d17846d7b1cd3_25074.ico,74,0,53
+1768194521363,423,/favicons/8d3df1e947c3b44cafb0fb4887d58fc7f1b3f10c10d593d5bedf17e311d05561_309614.oct-129,304,Not Modified,,,true,,234,618,0,0,https://prod-images.merino.prod.webservices.mozgcp.net/favicons/8d3df1e947c3b44cafb0fb4887d58fc7f1b3f10c10d593d5bedf17e311d05561_309614.oct,0,0,89
+1768194521467,327,/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2Fee8cbdf2-c170-4e16-8306-4975526e31dd.jpeg-132,304,Not Modified,,,true,,206,681,0,0,https://img-getpocket.cdn.mozilla.net/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2Fee8cbdf2-c170-4e16-8306-4975526e31dd.jpeg,0,0,304
+1768194521717,80,/favicons/4a7d254cf5884921a258c78f277cd1ce2e9a51e1c6eed7e8bcbd718bd0da2a00_1847.png-137,200,OK,,bin,true,,2551,515,0,0,https://prod-images.merino.prod.webservices.mozgcp.net/favicons/4a7d254cf5884921a258c78f277cd1ce2e9a51e1c6eed7e8bcbd718bd0da2a00_1847.png,79,0,58
+1768194521718,99,/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F65a4b59e-ad10-4b37-89e1-4481617add3e.jpeg-138,200,OK,,bin,true,,13850,622,0,0,https://img-getpocket.cdn.mozilla.net/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F65a4b59e-ad10-4b37-89e1-4481617add3e.jpeg,90,0,69
+1768194521713,115,/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F6b13b96a-3739-4e10-bfe1-9aa05a5b9700.jpeg-136,200,OK,,bin,true,,28384,622,0,0,https://img-getpocket.cdn.mozilla.net/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F6b13b96a-3739-4e10-bfe1-9aa05a5b9700.jpeg,88,0,68
+1768194521323,525,/favicons/f3d1afe17bd1b560d8f96e98365110e23840b52305d3f20a7d5927f3c6c78685_1844.oct-122,200,OK,,bin,true,,2562,515,0,0,https://prod-images.merino.prod.webservices.mozgcp.net/favicons/f3d1afe17bd1b560d8f96e98365110e23840b52305d3f20a7d5927f3c6c78685_1844.oct,524,0,132
+1768194521156,694,/v1/ads-118,200,OK,,text,true,,305,540,0,0,https://ads.mozilla.org/v1/ads,694,0,473
+1768194521450,412,/favicons/8a31b5617b46d67b3bf40d3123641cb230d7026ea45266351f4f766797d70ec7_12858.png-131,200,OK,,bin,true,,13563,516,0,0,https://prod-images.merino.prod.webservices.mozgcp.net/favicons/8a31b5617b46d67b3bf40d3123641cb230d7026ea45266351f4f766797d70ec7_12858.png,411,0,383
+1768194521761,111,/favicons/893396eaa6fda2f65ae0dc35f7d2b021e634ffff35978ce4240cdd7ff9eedb6a_257164.png-139,304,Not Modified,,,true,,234,618,0,0,https://prod-images.merino.prod.webservices.mozgcp.net/favicons/893396eaa6fda2f65ae0dc35f7d2b021e634ffff35978ce4240cdd7ff9eedb6a_257164.png,0,0,85
+1768194521341,549,/favicons/cd106eb7ed622a5a6cac356a451ba55490d5d67091ef5cd5202a139814aa06fb_7406.oct-127,200,OK,,bin,true,,8125,515,0,0,https://prod-images.merino.prod.webservices.mozgcp.net/favicons/cd106eb7ed622a5a6cac356a451ba55490d5d67091ef5cd5202a139814aa06fb_7406.oct,530,0,112
+1768194521797,141,/favicons/82a83b00f1e03a653755ce89f3da2acab1fe5fe3cff3acf17774d657d87a0ec5_34494.oct-140,200,OK,,bin,true,,35214,516,0,0,https://prod-images.merino.prod.webservices.mozgcp.net/favicons/82a83b00f1e03a653755ce89f3da2acab1fe5fe3cff3acf17774d657d87a0ec5_34494.oct,109,0,86
+1768194521797,145,/-141,400,Bad Request,,text,false,,468,590,0,0,https://push.services.mozilla.com/,145,0,122
+1768194521856,91,/favicons/b1a0b349fa07840cf02c9b65d7dcabace2fc89cae46453b5854dea5535361dad_6738.webp-143,200,OK,,bin,true,,7442,516,0,0,https://prod-images.merino.prod.webservices.mozgcp.net/favicons/b1a0b349fa07840cf02c9b65d7dcabace2fc89cae46453b5854dea5535361dad_6738.webp,90,0,66
+1768194521928,40,/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-en-US-144,200,OK,,text,true,,1106,390,0,0,https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-en-US,40,0,35
+1768194521391,601,/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2Ff300875e-0cd8-4bfb-9ab8-bcbb31de6d9e.jpeg-130,200,OK,,bin,true,,34014,622,0,0,https://img-getpocket.cdn.mozilla.net/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2Ff300875e-0cd8-4bfb-9ab8-bcbb31de6d9e.jpeg,564,0,540
+1768194521809,201,/favicons/f18c2fa3692f773baf02a6a6f3f2e55a41cb93df06393522b904cb4019afe12c_248894.ico-142,200,OK,,bin,true,,249603,517,0,0,https://prod-images.merino.prod.webservices.mozgcp.net/favicons/f18c2fa3692f773baf02a6a6f3f2e55a41cb93df06393522b904cb4019afe12c_248894.ico,107,0,81
+1768194521939,88,/favicons/f0ba933b33ca7516076aad272e4a76838d676fdf18b16c364ca134669ef6214d_712.svg-145,200,OK,,text,true,,1418,514,0,0,https://prod-images.merino.prod.webservices.mozgcp.net/favicons/f0ba933b33ca7516076aad272e4a76838d676fdf18b16c364ca134669ef6214d_712.svg,87,0,66
+1768194521615,307,/v4/threatListUpdates:fetch-134,200,OK,,text,true,,401050,848,0,0,https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?%24ct=application%2Fx-protobuf&key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&%24httpMethod=POST&%24req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gaJwgFEAEaGwoNCAUQBhgBIgMwMDEwARDfoh4aAhgI5bxKUyICIAIoARonCAEQARobCg0IARAGGAEiAzAwMTABELvJExoCGAiSt9w0IgIgAigBGicIAxABGhsKDQgDEAYYASIDMDAxMAEQ6sETGgIYCGlSJV0iAiACKAEaJwgHEAEaGwoNCAcQBhgBIgMwMDEwARCIyxMaAhgIjXYNESICIAIoARolCAkQARoZCg0ICRAGGAEiAzAwMTABECQaAhgI5A8QwiICIAIoAQ%3D%3D,184,0,124
+1768194521968,96,/favicons/03bb89f3ad9a6059f9288a3662f3c1f2e46471e50650949119fd64014e80d468_1738.png-147,200,OK,,bin,true,,2441,515,0,0,https://prod-images.merino.prod.webservices.mozgcp.net/favicons/03bb89f3ad9a6059f9288a3662f3c1f2e46471e50650949119fd64014e80d468_1738.png,95,0,73
+1768194521942,126,/update/6/Firefox/146.0.1/20251217121356/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%252010.0.0.0.26100.7462%2520(x64)/ISET%3ASSE4_2%2CMEM%3A16069/default/default/update.xml-146,200,OK,,text,true,,675,469,0,0,https://aus5.mozilla.org/update/6/Firefox/146.0.1/20251217121356/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%252010.0.0.0.26100.7462%2520(x64)/ISET%3ASSE4_2%2CMEM%3A16069/default/default/update.xml?force=1,125,0,78
+1768194522087,80,/favicons/388231ac048528715ffc2aebad84b58c19231d92156179d21c94d0b98d4f1d9b_751.svg-148,200,OK,,text,true,,1463,514,0,0,https://prod-images.merino.prod.webservices.mozgcp.net/favicons/388231ac048528715ffc2aebad84b58c19231d92156179d21c94d0b98d4f1d9b_751.svg,80,0,61
+1768194522168,71,/success.txt-149,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv4,71,0,44
+1768194522168,71,/success.txt-150,200,OK,,text,true,,235,315,0,0,http://detectportal.firefox.com/success.txt?ipv6,71,0,43
+1768194521156,1228,/api/v1/curated-recommendations-119,200,OK,,text,true,,24914,465,0,0,https://merino.services.mozilla.com/api/v1/curated-recommendations,1211,0,788
+1768194522303,91,/favicons/4fb37c8498130ded14416660d5242cdc6ce3e66ab111b71f8b85667807c926ba_15086.ico-152,200,OK,,bin,true,,15795,516,0,0,https://prod-images.merino.prod.webservices.mozgcp.net/favicons/4fb37c8498130ded14416660d5242cdc6ce3e66ab111b71f8b85667807c926ba_15086.ico,81,0,62
+1768194522289,160,/favicons/1564ab97026d69c012761382e091d1ef012bc6ebf5bdd34308bbe30b42a91fc1_169662.ico-151,200,OK,,bin,true,,170371,517,0,0,https://prod-images.merino.prod.webservices.mozgcp.net/favicons/1564ab97026d69c012761382e091d1ef012bc6ebf5bdd34308bbe30b42a91fc1_169662.ico,67,0,50
+1768194523329,74,/favicons/cb03c351a69acdeff9933a6a186a4739a3894011b4eecef241813a76319b009d_7406.oct-154,200,OK,,bin,true,,8125,515,0,0,https://prod-images.merino.prod.webservices.mozgcp.net/favicons/cb03c351a69acdeff9933a6a186a4739a3894011b4eecef241813a76319b009d_7406.oct,72,0,50
+1768194523339,89,/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F087dba8f-680a-40f4-b1b4-2d94e020ac5c.jpeg-156,200,OK,,bin,true,,21064,622,0,0,https://img-getpocket.cdn.mozilla.net/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F087dba8f-680a-40f4-b1b4-2d94e020ac5c.jpeg,71,0,51
+1768194523340,93,/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F691db7c4-fe4a-4120-b9eb-6dff55a5aa41.jpeg-157,200,OK,,bin,true,,17976,622,0,0,https://img-getpocket.cdn.mozilla.net/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F691db7c4-fe4a-4120-b9eb-6dff55a5aa41.jpeg,75,0,55
+1768194523140,303,/submit/firefox-desktop/events/1/708c6268-ef25-4a6d-b722-e91f70cc47ff-153,200,OK,,text,true,,869,6632,0,0,https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/708c6268-ef25-4a6d-b722-e91f70cc47ff,302,0,74
+1768194523339,114,/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2Fbd038f3f-d8f2-483e-b4c5-3188478c2bd4.jpeg-155,200,OK,,bin,true,,33011,622,0,0,https://img-getpocket.cdn.mozilla.net/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2Fbd038f3f-d8f2-483e-b4c5-3188478c2bd4.jpeg,88,0,63
+1768194523457,329,/submit/firefox-desktop/newtab/1/820e0398-1d21-4011-b842-2c3e72d8fa3f-158,200,OK,,text,true,,891,1711,0,0,https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/820e0398-1d21-4011-b842-2c3e72d8fa3f,329,0,49
+1768194523795,302,/submit/firefox-desktop/nimbus-targeting-context/1/7b415343-1a7a-4715-a30d-efc6dbae3e4f-159,200,OK,,text,true,,733,6478,0,0,https://incoming.telemetry.mozilla.org/submit/firefox-desktop/nimbus-targeting-context/1/7b415343-1a7a-4715-a30d-efc6dbae3e4f,301,0,52
+1768194524107,316,/submit/firefox-desktop/baseline/1/dea8212c-bc4d-4ec9-8734-288faa15fd9a-160,200,OK,,text,true,,942,3712,0,0,https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/dea8212c-bc4d-4ec9-8734-288faa15fd9a,316,0,59
+1768194524437,332,/submit/firefox-desktop/usage-reporting/1/5f2fa079-34d0-44e6-93b7-d8d3ee607a16-161,200,OK,,text,true,,860,1277,0,0,https://incoming.telemetry.mozilla.org/submit/firefox-desktop/usage-reporting/1/5f2fa079-34d0-44e6-93b7-d8d3ee607a16,332,0,54
+1768194524776,306,/submit/firefox-desktop/health/1/c16297a2-d6eb-45f7-9c00-e2b0fd9a0745-162,200,OK,,text,true,,925,9991,0,0,https://incoming.telemetry.mozilla.org/submit/firefox-desktop/health/1/c16297a2-d6eb-45f7-9c00-e2b0fd9a0745,305,0,52
+1768194525092,341,/submit/firefox-desktop/health/1/093ac61b-500c-4af0-a9ac-756cd248c8d7-163,200,OK,,text,true,,812,9544,0,0,https://incoming.telemetry.mozilla.org/submit/firefox-desktop/health/1/093ac61b-500c-4af0-a9ac-756cd248c8d7,341,0,54
+1768194525443,284,/ohttp-configs-164,200,OK,,text,true,,290,414,0,0,https://prod.ohttp-gateway.prod.webservices.mozgcp.net/ohttp-configs,284,0,71
+1768194526273,607,/actions/Catalog.action-165,200,,,text,true,,4614,636,0,0,https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=FISH,607,0,472
+0,0,petstore.octoperf.com:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2230,0,0,0,null,0,0,0
+0,0,petstore.octoperf.com:443,,"Software caused connection abort: recv failed
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1160,0,0,0,null,0,0,0
+0,0,petstore.octoperf.com:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2300,0,0,0,null,0,0,0
+0,0,petstore.octoperf.com:443,,"Software caused connection abort: recv failed
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1160,0,0,0,null,0,0,0
+0,0,petstore.octoperf.com:443,,"Connection reset
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1221,0,0,0,null,0,0,0
+0,0,petstore.octoperf.com:443,,"Connection reset
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1221,0,0,0,null,0,0,0
+0,0,petstore.octoperf.com:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2300,0,0,0,null,0,0,0
+0,0,petstore.octoperf.com:443,,"Software caused connection abort: socket write error
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,2230,0,0,0,null,0,0,0
+1768194526978,63,/-166,400,Bad Request,,text,false,,468,590,0,0,https://push.services.mozilla.com/,62,0,46
+1768194527504,80,/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F0e344ba7-e6b4-4de4-9380-e4e97beac509.jpeg-168,200,OK,,bin,true,,19827,622,0,0,https://img-getpocket.cdn.mozilla.net/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F0e344ba7-e6b4-4de4-9380-e4e97beac509.jpeg,65,0,48
+1768194527496,148,/favicons/b559ed1098135f9eb12575f5d5af6870ab7114485e7532b1f25e1f68778e1525_169489.oct-167,200,OK,,bin,true,,170211,517,0,0,https://prod-images.merino.prod.webservices.mozgcp.net/favicons/b559ed1098135f9eb12575f5d5af6870ab7114485e7532b1f25e1f68778e1525_169489.oct,75,0,53
+1768194528517,94,/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F9912dabe-450a-4aab-8c7b-d1798af5b0c4.jpeg-169,200,OK,,bin,true,,18863,622,0,0,https://img-getpocket.cdn.mozilla.net/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F9912dabe-450a-4aab-8c7b-d1798af5b0c4.jpeg,75,0,52
+1768194529256,298,/-170,502,Bad Gateway,,text,false,,541,1424,0,0,https://mozilla-ohttp.fastly-edge.com/,297,0,54
+1768194529605,99,/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F775bc17e-9a4b-4d3a-8ee5-8df7706d453c.png-172,200,OK,,bin,true,,18763,621,0,0,https://img-getpocket.cdn.mozilla.net/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F775bc17e-9a4b-4d3a-8ee5-8df7706d453c.png,80,0,57
+1768194529580,267,/-171,502,Bad Gateway,,text,false,,541,1334,0,0,https://mozilla-ohttp.fastly-edge.com/,267,0,25
+1768194529856,264,/-173,502,Bad Gateway,,text,false,,541,2027,0,0,https://mozilla-ohttp.fastly-edge.com/,264,0,23
+1768194530594,121,/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F7d341bc3-1040-4eb6-99d0-aaffb304953b.jpeg-174,200,OK,,bin,true,,34540,622,0,0,https://img-getpocket.cdn.mozilla.net/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2F7d341bc3-1040-4eb6-99d0-aaffb304953b.jpeg,92,0,62
+1768194531636,84,/favicons/bb010d25e8f39bb33f503f1c9f94f5a7a506c8e3f56782ae7723c9ceaf163bfb_15086.ico-175,200,OK,,bin,true,,15795,516,0,0,https://prod-images.merino.prod.webservices.mozgcp.net/favicons/bb010d25e8f39bb33f503f1c9f94f5a7a506c8e3f56782ae7723c9ceaf163bfb_15086.ico,75,0,57
+1768194531654,111,/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2Fc4c541dd-2f82-4930-9e53-8d3802b184cb.png-176,200,OK,,bin,true,,47445,621,0,0,https://img-getpocket.cdn.mozilla.net/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2Fc4c541dd-2f82-4930-9e53-8d3802b184cb.png,85,0,67
+1768194531970,571,/actions/Account.action;jsessionid=892A54FAFE2A3DEFC508D97D4FD673B1-177,200,,,text,true,,4090,807,0,0,https://petstore.octoperf.com/actions/Account.action;jsessionid=892A54FAFE2A3DEFC508D97D4FD673B1?signonForm=,570,0,431
+1768194532665,88,/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2Fb87e1683-a067-4a63-8c96-7b44e0d8e5d3.jpeg-178,200,OK,,bin,true,,25674,622,0,0,https://img-getpocket.cdn.mozilla.net/592x320/smart/filters:format(jpeg):quality(60):no_upscale():strip_exif()/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fpocket-curatedcorpusapi-prod-images%2Fb87e1683-a067-4a63-8c96-7b44e0d8e5d3.jpeg,68,0,49
+1768194534773,77,/favicons/65b9c19baecba5a8ef582c7a5ae6528f68760f6218ec13e8a8827b3a9ccc9c2d_10990.oct-179,200,OK,,bin,true,,11718,516,0,0,https://prod-images.merino.prod.webservices.mozgcp.net/favicons/65b9c19baecba5a8ef582c7a5ae6528f68760f6218ec13e8a8827b3a9ccc9c2d_10990.oct,75,0,54
+1768194535885,582,/actions/Account.action-180,302,,,,true,,225,1120,0,0,https://petstore.octoperf.com/actions/Account.action,582,0,440
+1768194536485,579,/actions/Catalog.action-181,200,,,text,true,,5195,777,0,0,https://petstore.octoperf.com/actions/Catalog.action,578,0,438
+0,0,petstore.octoperf.com:443,,"Software caused connection abort: recv failed
+**ensure browser is set to accept the JMeter proxy certificate**",,,false,,1160,0,0,0,null,0,0,0
+1768194537089,82,/-182,400,Bad Request,,text,false,,468,590,0,0,https://push.services.mozilla.com/,81,0,62
+1768194537121,567,/images/birds_icon.gif-188,200,,,bin,true,,760,672,0,0,https://petstore.octoperf.com/images/birds_icon.gif,567,0,432
+1768194537116,579,/images/cats_icon.gif-184,200,,,bin,true,,697,671,0,0,https://petstore.octoperf.com/images/cats_icon.gif,579,0,442
+1768194537116,598,/images/fish_icon.gif-183,200,,,bin,true,,728,671,0,0,https://petstore.octoperf.com/images/fish_icon.gif,598,0,454
+1768194537118,617,/images/dogs_icon.gif-185,200,,,bin,true,,757,671,0,0,https://petstore.octoperf.com/images/dogs_icon.gif,617,0,469
+1768194537120,639,/images/reptiles_icon.gif-186,200,,,bin,true,,958,675,0,0,https://petstore.octoperf.com/images/reptiles_icon.gif,639,0,483
+1768194537121,750,/images/splash.gif-187,200,Software caused connection abort: socket write error,,bin,false,,36390,668,0,0,https://petstore.octoperf.com/images/splash.gif,605,0,460
+1768194539849,555,/actions/Account.action-189,302,,,,true,,225,730,0,0,https://petstore.octoperf.com/actions/Account.action?signoff=,555,0,421
+1768194540423,570,/actions/Catalog.action-190,200,,,text,true,,5043,721,0,0,https://petstore.octoperf.com/actions/Catalog.action,569,0,431
+1768194541909,54,/favicons/68d17fe3b579e967803b3bfa086047106eb7c67ba2d64149f606457e2df5437c_3148.png-191,200,OK,,bin,true,,3859,515,0,0,https://prod-images.merino.prod.webservices.mozgcp.net/favicons/68d17fe3b579e967803b3bfa086047106eb7c67ba2d64149f606457e2df5437c_3148.png,54,0,38
+1768195099563,2,Debug Sampler,200,OK,Thread Group 1-1,text,true,,323,0,1,1,null,0,0,0
+1768195399243,1,Debug Sampler,200,OK,Thread Group 1-1,text,true,,1113,0,1,1,null,0,0,0
