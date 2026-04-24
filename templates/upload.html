@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}Upload JMX | PerfHub{% endblock %}
+{% block content %}
+<div class="max-w-3xl mx-auto">
+  <h1 class="text-2xl font-bold mb-3">Upload JMeter Test Plan</h1>
+  <p class="text-slate-600 mb-6">BlazeMeter-like flow: upload your <code>.jmx</code> file and watch server-side execution logs in real time.</p>
+
+  <div class="bg-white rounded-2xl p-8 shadow border-2 border-dashed border-cyan-300">
+    <form method="post" enctype="multipart/form-data" class="space-y-4">
+      <label class="block text-sm font-medium">JMX File</label>
+      <input type="file" name="jmx_file" accept=".jmx" class="w-full border rounded p-3" required />
+      <button type="submit" class="bg-cyan-600 hover:bg-cyan-700 text-white px-5 py-2 rounded-lg">Upload & Run</button>
+    </form>
+  </div>
+</div>
+{% endblock %}

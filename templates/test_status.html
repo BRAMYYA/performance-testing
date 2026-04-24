@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% block title %}Test #{{ test.id }} Status | PerfHub{% endblock %}
+{% block head %}
+<script src="https://cdn.socket.io/4.8.1/socket.io.min.js" crossorigin="anonymous"></script>
+{% endblock %}
+{% block content %}
+<div class="mb-4 flex justify-between items-center">
+  <h1 class="text-2xl font-bold">Test #{{ test.id }} - {{ test.original_filename }}</h1>
+  <a href="{{ url_for('dashboard') }}" class="text-blue-600">← Back</a>
+</div>
+
+<div class="grid md:grid-cols-3 gap-4 mb-4">
+  <div class="bg-white rounded-xl p-4 shadow">
+    <div class="text-sm text-slate-500">Status</div>
+    <div id="statusText" class="text-lg font-semibold mt-1 capitalize">{{ test.status }}</div>
+  </div>
+  <div class="bg-white rounded-xl p-4 shadow">
+    <div class="text-sm text-slate-500">Created</div>
+    <div class="text-lg mt-1">{{ test.created_at.strftime('%Y-%m-%d %H:%M:%S') }}</div>
+  </div>
+  <div class="bg-white rounded-xl p-4 shadow flex items-center">
+    <a id="reportBtn" href="{{ url_for('view_report', test_id=test.id) }}" class="hidden bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2 rounded">View HTML Report</a>
+  </div>
+</div>
+
+<div class="bg-slate-950 text-green-300 rounded-xl shadow p-4">
+  <h2 class="font-semibold mb-2">Live Console Output</h2>
+  <pre id="logArea" class="h-[420px] overflow-y-auto text-xs whitespace-pre-wrap">{{ test.log }}</pre>
+</div>
+{% endblock %}
+{% block scripts %}
+<script>
+  const testId = {{ test.id }};
+  const socket = io('/test');
+  const logArea = document.getElementById('logArea');
+  const statusText = document.getElementById('statusText');
+  const reportBtn = document.getElementById('reportBtn');
+
+  socket.on('connect', () => {
+    socket.emit('join_room', { test_id: testId });
+  });
+
+  socket.on('log_output', (data) => {
+    logArea.textContent += (data.line || '') + '\n';
+    logArea.scrollTop = logArea.scrollHeight;
+  });
+
+  socket.on('test_complete', (data) => {
+    if (Number(data.test_id) !== testId) return;
+    statusText.textContent = data.status;
+    statusText.classList.add(data.status === 'completed' ? 'text-green-600' : 'text-red-600');
+    if (data.status === 'completed') {
+      reportBtn.classList.remove('hidden');
+    }
+  });
+</script>
+{% endblock %}

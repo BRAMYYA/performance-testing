@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}Tools Showcase | PerfHub{% endblock %}
+{% block content %}
+<h1 class="text-3xl font-bold mb-2">Performance Tools Showcase</h1>
+<p class="text-slate-600 mb-6">Explore the ecosystem used by performance engineers.</p>
+
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+  {% for tool in tools %}
+  <article class="bg-white rounded-xl shadow p-5 hover:shadow-lg transition">
+    <div class="text-xs uppercase tracking-widest text-cyan-600">{{ tool.tag }}</div>
+    <h2 class="text-xl font-semibold mt-1 mb-2">{{ tool.name }}</h2>
+    <p class="text-slate-600">{{ tool.description }}</p>
+  </article>
+  {% endfor %}
+</div>
+{% endblock %}
