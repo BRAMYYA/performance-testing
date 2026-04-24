@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% block title %}Dashboard | PerfHub{% endblock %}
+{% block content %}
+<div class="flex justify-between items-center mb-5">
+  <h1 class="text-2xl font-bold">My Test Runs</h1>
+  <a href="{{ url_for('upload') }}" class="bg-cyan-600 hover:bg-cyan-700 text-white px-4 py-2 rounded-lg">+ Upload JMX</a>
+</div>
+
+<div class="bg-white rounded-xl shadow overflow-hidden">
+  <table class="w-full text-left">
+    <thead class="bg-slate-50 border-b">
+      <tr>
+        <th class="p-3">ID</th>
+        <th class="p-3">Filename</th>
+        <th class="p-3">Status</th>
+        <th class="p-3">Created</th>
+        <th class="p-3">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for test in tests %}
+      <tr class="border-b">
+        <td class="p-3">{{ test.id }}</td>
+        <td class="p-3">{{ test.original_filename }}</td>
+        <td class="p-3">
+          {% if test.status == 'running' %}
+            <span class="inline-flex items-center gap-2 text-amber-600 font-medium"><span class="running-dot"></span>Running</span>
+          {% elif test.status == 'completed' %}
+            <span class="text-green-600 font-medium">Completed</span>
+          {% elif test.status == 'failed' %}
+            <span class="text-red-600 font-medium">Failed</span>
+          {% else %}
+            <span class="text-slate-600">{{ test.status|capitalize }}</span>
+          {% endif %}
+        </td>
+        <td class="p-3">{{ test.created_at.strftime('%Y-%m-%d %H:%M:%S') }}</td>
+        <td class="p-3 space-x-2">
+          <a class="text-blue-600 hover:underline" href="{{ url_for('test_status', test_id=test.id) }}">Live Status</a>
+          {% if test.status == 'completed' %}
+            <a class="text-emerald-600 hover:underline" href="{{ url_for('view_report', test_id=test.id) }}">View Report</a>
+          {% endif %}
+        </td>
+      </tr>
+      {% else %}
+      <tr><td colspan="5" class="p-4 text-slate-500">No tests yet. Upload a .jmx file to get started.</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}

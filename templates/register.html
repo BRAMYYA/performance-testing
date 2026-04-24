@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}Register | PerfHub{% endblock %}
+{% block content %}
+<div class="max-w-md mx-auto bg-white p-6 rounded-xl shadow">
+  <h1 class="text-2xl font-bold mb-4">Create Account</h1>
+  <form method="post" class="space-y-4">
+    <input class="w-full border rounded px-3 py-2" type="text" name="username" minlength="3" placeholder="Username" required />
+    <input class="w-full border rounded px-3 py-2" type="password" name="password" minlength="6" placeholder="Password" required />
+    <button class="w-full bg-indigo-600 hover:bg-indigo-700 text-white py-2 rounded" type="submit">Register</button>
+  </form>
+  <p class="mt-4 text-sm">Already have an account? <a class="text-indigo-600" href="{{ url_for('login') }}">Login</a></p>
+</div>
+{% endblock %}

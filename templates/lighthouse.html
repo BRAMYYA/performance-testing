@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block title %}Lighthouse Audit | PerfHub{% endblock %}
+{% block content %}
+<div class="max-w-4xl mx-auto space-y-5">
+  <h1 class="text-2xl font-bold">Lighthouse-like URL Audit</h1>
+
+  <div class="bg-white p-6 rounded-xl shadow">
+    <form method="post" class="flex flex-col md:flex-row gap-3">
+      <input type="url" name="url" placeholder="https://example.com" class="flex-1 border rounded px-4 py-2" required />
+      <button class="bg-indigo-600 hover:bg-indigo-700 text-white px-5 py-2 rounded">Run Audit</button>
+    </form>
+  </div>
+
+  {% if score is not none %}
+    <div class="bg-white p-6 rounded-xl shadow">
+      <p class="text-slate-500">Performance Score</p>
+      <p class="text-5xl font-bold {% if score > 89 %}text-green-600{% elif score > 49 %}text-yellow-500{% else %}text-red-600{% endif %}">{{ score }}</p>
+    </div>
+  {% endif %}
+
+  {% if latest_report %}
+    <div class="bg-white p-6 rounded-xl shadow">
+      <a href="{{ url_for('serve_lighthouse_report', filename=latest_report) }}" target="_blank" class="text-indigo-600 underline">Open Full Lighthouse HTML Report</a>
+      <iframe class="mt-4 w-full h-[600px] border rounded" src="{{ url_for('serve_lighthouse_report', filename=latest_report) }}"></iframe>
+    </div>
+  {% endif %}
+</div>
+{% endblock %}

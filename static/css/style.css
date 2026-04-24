@@ -1,0 +1,18 @@
+.running-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 9999px;
+  background: #f59e0b;
+  display: inline-block;
+  animation: pulse 1.3s infinite;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.3; transform: scale(0.95); }
+  50% { opacity: 1; transform: scale(1.1); }
+  100% { opacity: 0.3; transform: scale(0.95); }
+}
+
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}

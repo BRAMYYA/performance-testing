@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}JMeter Report | PerfHub{% endblock %}
+{% block content %}
+<div class="bg-white p-6 rounded-xl shadow">
+  <h1 class="text-2xl font-bold mb-2">JMeter HTML Report for Test #{{ test.id }}</h1>
+  <p class="text-slate-600 mb-4">Rendered from the official <code>-e -o</code> dashboard output.</p>
+  <a href="{{ url_for('serve_report_index', test_id=test.id) }}" target="_blank" class="text-emerald-700 underline">Open report in new tab</a>
+  <iframe class="mt-4 w-full h-[800px] border rounded" src="{{ url_for('serve_report_index', test_id=test.id) }}"></iframe>
+</div>
+{% endblock %}
